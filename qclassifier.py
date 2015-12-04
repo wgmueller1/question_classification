@@ -5,6 +5,7 @@ from keras.preprocessing.text import Tokenizer
 from itertools import chain
 from keras.layers.embeddings import Embedding
 from keras.layers.recurrent import LSTM, GRU, JZS1, JZS2, JZS3
+import statsmodels as sm
 
 def base_filter():
     f = string.punctuation
